@@ -6,6 +6,12 @@ Nesta análise, foi explorado dados de diversos algoritimos de ordenacao criados
 - christophe Abelem
 - Pedro Monteiro
 
+# Configurações da maquina das pesquisas
+Dell inspiron 15
+processador: intel Core i7
+memoria RAM: 8 GB
+
+
 # Conclusões sobre o Projeto
 
 Ao fim desta analise, conclui-se que dentre os 4 algoritimos de ordenacao pesquisados dentro dos vetores de 10.000, 100.000 e 500.000, é possivel concluir as seguintes observacoes: 
