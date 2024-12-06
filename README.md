@@ -8,7 +8,9 @@ Nesta análise, foi explorado dados de diversos algoritimos de ordenacao criados
 
 # Configurações da maquina das pesquisas
 Dell inspiron 15
+
 processador: intel Core i7
+
 memoria RAM: 8 GB
 
 
