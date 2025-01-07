@@ -1,26 +1,26 @@
-# AnalisesOrdinationAlgorithms
-Nesta análise, foi explorado dados de diversos algoritimos de ordenacao criados em sql como o MergeSort, QuickSort, BubbleSort, e ShellSort. Com o objetivo de identificar tendências e  insights sobre qual deles é o mais rapido em um determinado grupo de vetores variando entre 10.000, 100.000 e 500.000 vetores. Utilizando de testes de hipotese como o ANOVA e teste Tukey para calcular seu desempenho, alem de calculos para determinar os intervalos de confiança sobre os tempos de processamento de cada algoritmo, ajudando a determinar a precisão das medições utilizadas
+# OrdinationAlgorithms
+In this analysis, data from several sorting algorithms created in SQL such as MergeSort, QuickSort, BubbleSort, and ShellSort were explored. The objective of this analysis identifying trends and insights into which one is the fastest in a given group of vectors ranging between 10,000, 100,000 and 500,000 vectors. Using hypothesis tests such as ANOVA and Tukey's test to calculate its performance, as well as calculations to determine the confidence intervals on the processing times of each algorithm, helping to determine the accuracy of the measurements used
 
-# Membros da equipe
+# Team
 - Gustavo Teixeira
 - christophe Abelem
 - Pedro Monteiro
 
-# Configurações da maquina das pesquisas
+# Notebooks information
 Dell inspiron 15
 
 processador: intel Core i7
 
-memoria RAM: 8 GB
+RAM memory: 8 GB
 
 
-# Conclusões sobre o Projeto
+# Conclusions
 
-Ao fim desta analise, conclui-se que dentre os 4 algoritimos de ordenacao pesquisados dentro dos vetores de 10.000, 100.000 e 500.000, é possivel concluir as seguintes observacoes: 
+At the end of this analysis, it is concluded that among the 4 ordering algorithms researched within the vectors of 10,000, 100,000 and 500,000, it is possible to conclude the following observations: 
 
-- O BubbleSort é o algoritimo de ordenacao mais lento dentre todos, sempre possuindo uma media de execucao bem maior que os demais. Isso se deve principalemnte a sua complexidade de tempo ser de 0(n^2), enquanto os outros algoritimos analisados terem complexidade de tempo 0(nLogn).
+- BubbleSort is the slowest sorting algorithm of all, always having a much higher average execution than the others. This is mainly due to its time complexity being 0(n^2), while the other algorithms analyzed have time complexity of 0(nLogn).
 
-- O QuickSort é o algoritimo de ordenacao mais rapido dentre os analisados, sempre possuindo uma media de execucao menor que os outros, isso se deve a sua divisão eficiente, dividindo o vetor em partes menores, reduzindo o número de operações.
+- QuickSort is the fastest sorting algorithm among those analyzed, always having a lower average execution than the others, this is due to its efficient division, dividing the vector into smaller parts, reducing the number of operations.
 
 - As medias de execucao do MergeSort e QuickSort sao bem proximas devido a ambos terem eficiência semelhante em cenários gerais, dividindo os dados de forma recursiva e processando em partes menores.
 
